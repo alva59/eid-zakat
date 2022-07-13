@@ -1,1 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Josefin+Sans:ital@1&family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+section{
+    margin: 100px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    
+}
+h1{
+    font-size: 55px;
+    line-height: 75px;
+}
+h2{
+    font-size: 45px;
+    line-height: 55px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a.btn{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #EF233C;
+    border-radius: 5px;
+}
